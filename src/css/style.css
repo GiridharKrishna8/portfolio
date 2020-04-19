@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+body
+{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    outline: none;
+}
+#Project{
+    height: 140vh;
+    width: 100%;
+    background: #E83350; 
+}
+.project-title{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: seashell;
+    text-decoration: underline;
+    text-decoration-color: #ffff;
+    padding: 40px 50px;
+    font-size: 3em;
+    opacity: 0;
+    margin-right: -15%;
+    transition: 0.3s;
+}
+.pr-ani{
+    transition: 0.3s;
+    margin-right: 0%;
+    opacity: 1;
+}
+.fa-github{
+    font-size: 3em;
+    color: #202020;
+}
+.card-body{
+    height: 20vh;
+}
+.card-title{
+    margin-top: -2vh;
+}
+.card{
+    margin-left: 10%;
+    opacity: 1;
+    overflow: hidden;
+    width: 16rem;
+    transition: 0.3s;
+    border: 3px solid rgb(255, 255, 255);
+    margin-top: 50px;
+}
+.proj-gall{
+    margin-top: -50px;
+}
+.card-img-top{
+    background-image: url('../images/Project/p1.png');
+    height: 140px;
+    background-position: center;
+    background-size: cover;
+    transform-origin: bottom;
+    animation-fill-mode: both;
+    animation: iimg 10s infinite;    
+}
+@keyframes iimg
+{
+    0%,100%{
+    background-image: url('../images/Project/p1.png');
+
+    }
+    25%{
+        background-image: url('../images/Project/p2.png');
+    }
+    75%{
+        background-image: url('../images/Project/p3.png');
+
+    }
+}
+.card:hover .hov-eff{
+    margin-top: -299px;
+    transition: 0.3s;
+    opacity: 1;
+    cursor: pointer;
+}
+.card-text{
+    text-align: center;
+    margin-top: -0.8em;
+    z-index: -9999;
+}
+.hov-eff{
+    z-index: 1;
+    background-color: rgb(0, 0, 0,0.5);
+    height: 43vh;
+    border-radius: 3px;
+    width: 256px;
+    overflow: none;
+    margin-left: -20px;
+    margin-top: -699px;
+    justify-content: center;
+    transition: 0.3s;
+    opacity: 1;
+    border: none;
+}
+.btn{
+    background-color: #fff;
+    border:none;
+    margin-top: 100px;
+    position: relative;
+}
+.btn:hover{
+    background-color: #fff;
+
+}
+.skills-a-a-a-a{
+    width: 140%;
+    height: 10vh;
+}
+.skills-row-1{
+    margin-left: -20%;
+    position: relative;
+    margin-top: -1%;
+    opacity: 1;
+    transition: 0.3s;
+}
+.roe-title{
+    transition: 0.3s;
+    opacity: 0;
+    margin-top: -5%;
+}
+.skills-row-2{
+    position: relative;
+    margin-top: -71.5vh;
+    transition: 0.3s;
+    margin-left: -3%;
+}
+.skills-row-3{
+    position: relative;
+    margin-top: -71.5vh;
+    transition: 0.3s;
+    margin-left: 14%;
+}
+.skills-row-4{
+    position: relative;
+    margin-top: -71.5vh;
+    transition: 0.3s;
+    margin-left: 31%;
+}
+
+.checked {
+    color: rgb(255, 72, 0) !important;
+  }
+#Skills{
+    height: 100vh;
+/*    background-color: rgb(36, 230, 156);*/
+    /*background-color:#091921;*/
+    justify-content: center;
+    width: 100%;
+    background: #10A881;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.imgBx{
+    width: 40px;
+    height: 40px;
+}
+ .container{
+    position: relative;
+    align-items: center;
+    flex-wrap:wrap;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+} 
+.card-imgaa{
+    height: 80px;
+    padding: 20px 30px 0px 10px;
+}
+.fa-star{
+    font-size: 23px;
+    padding: 0px 4px;
+    color: #6f6f6f;
+    -webkit-text-stroke: 3px solid white;
+}
+.container .cardaa{
+    background: #9796f0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 5px;
+    border: 4px solid #EEE8AA;
+    height: 15vh;
+    width: 22%;    
+}
+.container .cardaa .contentBX{
+    position: relative;
+    margin-left: 75px;
+    
+}
+.skills-title{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: rgb(255, 0, 76);
+    text-decoration: underline;
+    text-decoration-color: #ffff;
+    padding: 40px 50px;
+    font-size: 3em;
+    opacity: 0;
+    margin-right: -15%;
+    transition: 0.3s;
+}
+.sk-ani{
+    transition: 0.3s;
+    margin-right: 0%;
+    opacity: 1;
+}
+.About-Hero-Img{
+    height: 100vh;
+    width: 40%;
+    background-size: 100%;
+    position: absolute;
+    float: right;
+    left: 60%;
+    transition: 0.3s;
+    z-index: -99999;
+    background-color: rgba(233, 173, 42, 0.801);
+    background-image: url('../images/AboutHero.jpg');
+}
+#About{
+    height: 100vh;
+    overflow: hidden;
+}
+.About-data{
+    height: 100vh;
+    width: 60%;
+    background-color: rgba(233, 173, 42, 0.801);
+}
+.ani-about{
+    opacity: 0;
+    transition: 0.3s;
+    margin-left: 2%;
+}
+.about-head{
+    margin-right: 25%;
+    transition: 0.3s;
+    opacity: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 45px 90px;
+    font-size: 4em;
+    text-decoration: underline;
+    text-decoration-color:#fff;
+    transition-delay: 0.2s;
+    color: rgb(138, 40, 204);
+        /* -webkit-animation: changeani 3s linear infinite;
+        transform-origin: bottom; */
+}
+/* @keyframes changeani {
+    0%{
+    text-decoration-color:#262626;
+    }
+    100%{
+    text-decoration-color:#ffff;
+
+    }
+} */
+.About-text-main{
+    text-align: justify;
+    width: 95%;
+    margin-left: 2.5%;
+    line-height: 40px;
+    margin-top: 30%;
+    opacity: 0;
+    transition: 0.3s;
+}
+.ani{
+    margin-right: 0%;
+    transition: 0.3s;
+    opacity: 1;
+}
+.ania{
+    margin-right: 0%;
+    transition: 0.3s;
+    margin-top: 0%;
+    opacity: 1;
+}
+.title-align{
+    margin-top: 28vh;
+    margin-left: 63%;
+    position: absolute;
+}
+.text-p{
+    margin-left: 70%;
+    margin-top: 38vh;
+    font-size: 2em;
+    position: absolute;
+    font-weight: bolder;
+    font-family: 'Comic Neue', cursive;
+    animation: mysubtitle 2s infinite;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-delay: 2s;  
+}
+@keyframes mysubtitle {
+    100% {opacity:1;-webkit-text-stroke:0px rgb(243, 28, 60);}
+    0% {opacity: 1;-webkit-text-stroke:1.5px rgb(243, 28, 60);}
+  }
+nav{
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+    height: 100px;  
+    box-sizing: border-box;
+    transition: 0.5s;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.logo
+{
+    float: left;
+    height: 70px;
+    padding: 0px -10px;
+}
+/*nav ul{
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    line-height: 80px;
+    color: #ffff;
+    padding: 5px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}*/
+nav ul li a.active,
+nav ul li a:hover{
+    color: #ec1c73;
+    border-bottom: 2px solid wheat;
+    transition: 0.5s;
+    padding: 5px 20px;
+}
+.scrolled{
+    background-color: rgb(0, 0, 0,0.3);
+    position: fixed;
+    padding: 10px 60px;
+    height: 80px;
+}
+.scrolled .logo img{
+    border-radius: 50%;
+    height: 60px;
+
+}
+.scrolled ul li a{
+    padding: 15px 10px;
+} 
+.Hero-section{
+    background-image: url('../images/heromain.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.txt-color{
+    color: rgb(243, 28, 60);
+    font-weight: bolder;
+    -webkit-text-stroke:0px #ffff;
+    animation: mymove 2s infinite;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+  }
+  @keyframes mymove {
+    0% {opacity:1;-webkit-text-stroke:0px #ffff;}
+    100% {opacity: 1;-webkit-text-stroke:1px #ffff;}
+}
+nav .Nav-Bar {
+    display: none;
+}
+@media (max-width:790px){
+    .logo{
+        height: 60px;
+        margin-left: -30px;
+        }
+       .navbar-toggler{
+            outline: none;
+        }
+        .fa{
+            outline: none;
+        }
+        nav{
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;  
+        font-size: 1.4em;
+        padding: 10px 40px;
+        box-sizing: border-box;
+        transition: 0.5s;
+        font-family: 'Baloo Tamma 2', cursive;
+        z-index: 99999;
+    }
+    nav .Nav-Bar {
+        height: 0px;
+        float: right;
+        padding: 10px;
+        display: block;
+        color: white;
+        transition: 0.5s;
+    }
+    .fa{
+        font-size: 1.5em;
+    }
+    nav .Nav-Bar .fa{
+        font-size: 3em;
+        color: #ffff;
+    }
+    nav .Nav-Bar:hover{
+        cursor: pointer;
+    }
+    nav .logo img{
+        height: 70px;
+        transition: 0.5s;
+    }
+    .scrolled{
+        background-color: rgb(0, 0, 0,0.5);
+        position: fixed;
+        padding: 10px -80px;
+        display: block;
+        height: 80px;
+    }
+    .scrolled .logo{
+        float: left;
+        margin-left: -150px;
+        margin-top: -5px;
+        transition: 0.3s;
+    }
+    .scrolled  .fa{
+        position: absolute;
+        margin-left: 80px;
+        margin-top: -13%;
+        float: right;
+    }
+
+    .scrolled ul{
+       line-height: 50px !important;
+        background-color: rgb(0, 0, 0,0.5);
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        left: 0;
+        float: none;
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    nav ul{
+        position: absolute;
+        width: 100%;
+        top: 100px;
+        left: 0;
+        float: none;
+        margin: 0;
+        padding: 0;
+        display: block;
+     /*   background-color: rgb(0, 0, 0,0.5);*/
+    }
+    button:hover{
+        cursor: pointer;
+        left: 0%;
+    }
+  
+    .mobile{
+        margin-left: -100%;
+        transition: 0.5s;
+        overflow:hidden;
+    }
+    .show{
+        transition: 0.5s;
+        overflow:hidden;
+        margin-left: 0%;
+    }
+    nav ul li{
+        width: 100%;
+    }
+    nav ul li a{
+        display: block;
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+        line-height: 70px !important;
+     }
+    .scrolled ul li a{
+        display: block;
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+        line-height: 70px !important;
+     }
+     .Hero-section{
+        background-image: url('../images/heromain.png');
+        background-repeat: no-repeat;
+        background-size: fit;
+        background-position: -90px ;
+        background: image margin left 30px;
+        min-height: 100vh;
+    }
+    .title-align{
+        margin-top: 60vh;
+        font-size: 2.5em;
+        margin-left: 10%;
+        position: absolute;
+    }
+    .text-p{
+        margin-top: 67vh;
+        font-size: 2em;
+        margin-left: 18%;
+        position: absolute;
+    }
+    .About-data{
+        width: 100%;
+        height: 55vh;
+        position: relative;
+    }
+    .about-head{
+       width: 100%;
+        transition: 0.3s;
+        opacity: 0;
+        font-family: 'Baloo Bhai 2', cursive;
+        font-size: 40px;
+        text-decoration: underline;
+        text-decoration-color:#ffff;
+        transition-delay: 0.2s;
+        margin-left: 100%;
+        margin-left: 15%;
+    }
+    .ani{
+        opacity: 1;
+        margin-left: 0%;
+        transition: 0.3s;
+        opacity: 1;
+    }
+    .About-text-main{
+        text-align: justify;
+        width: 90%;
+        height: 60%;
+        margin-left: -15%;
+        line-height: 20px;
+        margin-top: -10%;
+        opacity: 0;
+        font-size: 15px;
+        margin-right: -100%;
+        transition: 0.3s ease-in-out;
+    }
+    .ania{
+        margin-left: 5%;
+        opacity: 1;
+    }
+    .About-Hero-Img{
+        height: 45vh;
+        width: 100%;
+        background-size: 100%;
+        transition: 0.3s;
+        margin-top: 65%;
+        opacity: 1;
+        float: left;
+        left: -0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 55vh;
+        background-repeat: no-repeat;
+        background-image: url('../images/AboutHero.jpg');
+    }
+    .ani-about {
+        opacity: 0;
+        transition: 0.2s;
+        margin-right: -15%;
+    }
+    
+    .container .cardaa{
+        background: #091921;
+        border-radius: 5px;
+        border:4px solid #091921;
+        height: 15vh;
+        width: 42%;  
+        background: #9796f0;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    .skills-row-1{
+        margin-left: -36%;
+        position: relative;
+        margin-top: -1%;
+    }
+    .skills-row-2{
+        position: relative;
+        margin-top: 3.5vh;
+        margin-left: -36%;
+    }
+    .skills-row-3{
+        position: relative;
+        margin-top: 0vh;
+        margin-left: -36%;
+    }
+    .skills-row-4{
+        position: relative;
+        margin-top: 0;
+        margin-left: -36%;
+    }
+    #Skills{
+        height: 300vh;
+        background-color:#091921;
+        justify-content: center;
+        width: 100%;
+    }
+    .hov-eff{
+        z-index: 1;
+        background-color: rgb(0, 0, 0,0.5);
+        height: 43vh;
+        border-radius: 3px;
+        width: 256px;
+        overflow: none;
+        margin-left: -20px;
+        margin-top: -699px;
+        justify-content: center;
+        transition: 0.3s;
+        opacity: 1;
+        border: none;
+    }
+    .btn{
+        background-color: #fff;
+        border:none;
+        margin-top: 100px;
+        position: relative;
+    }
+    .fa-github{
+        font-size: 3em;
+    }
+    
+}
