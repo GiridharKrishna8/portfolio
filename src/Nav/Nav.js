@@ -68,7 +68,7 @@ class Nav extends Component {
                     <span className="text-white"><i className="fa fa-bars"></i></span>    
                 </button>
                 <div className={this.state.navClass}>
-                    <ul className="navbar-nav ml-auto mr-5">
+                    <ul className="navbar-nav ml-auto mr-5" onClick={this.toggler}>
                         {this.state.menus.map(menu => {
                             return(
                                 <li key={menu.id} className="nav-item mr-5">

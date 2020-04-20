@@ -6,6 +6,8 @@ import Hero from './herosection/Hero';
 import About from './aboutsection/About';
 import Skills from './skillssection/Skills';
 import Project from './projectsection/Project';
+import Contact from './contactsection/Contact';
+import Footer from './footersection/footer';
  class App extends React.Component{
 
   render(){
@@ -19,8 +21,9 @@ import Project from './projectsection/Project';
         <About id="about"/>
         <Skills />
         <Project/>
+        <Contact/>
+        <Footer/>
       </header>
-
     </div>
     </React.Fragment>
 

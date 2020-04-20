@@ -2,6 +2,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 body
 {
     display: flex;
@@ -10,10 +11,100 @@ body
     overflow-x: hidden;
     outline: none;
 }
+#Contact{
+    height: 100vh;
+    width: 100%;
+    background-color: #202020;
+}
+.pos-ico-1{
+    margin-top: 20vh;
+    margin-left: 0%;
+}
+.pos-ico-2{
+    margin-top: 10vh;
+}
+.pos-ico-3{
+    margin-top: -6.7vh;
+    margin-left: 20%;
+}
+.mail{
+    margin-left: 5px;
+}
+.alig{
+    margin-left: -45%;
+    margin-top: 20vh;
+}
+.social-icon-1{
+    background-color: #0077B5;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    color: #fff;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.social-icon-3{
+    background-color: #0077B5;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    color: #fff;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.social-icon-3:hover{
+    background-color: #fff;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    color: #0077B5;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.social-icon-2 .fa-github{
+    background-color: #0077B5;
+    padding: 14px 15px;
+    font-size: 1.6em;
+    color: #fff;
+    border-radius: 3px;
+}
+.pos-ico-4{
+    margin-left: 40%;
+    margin-top: -35px;
+}
+.pos-ico-5{
+    margin-left: 60%;
+    margin-top: -36px;
+}
+.ins:hover{
+    transition: 0.3s;
+    color: #fff;
+    background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);;
+}
+.social-icon-2 .fa-github:hover{
+    background-color: #fff;
+    padding: 14px 15px;
+    font-size: 1.6em;
+    color: #000;
+    border-radius: 3px;
+}
+.social-icon-1:hover{
+    background-color: #fff;
+    transition: 0.3s;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    color: #DB4437;
+    border-radius: 3px;
+}
+.footer-block{
+    background-color: #202020;
+}
+
 #Project{
-    height: 140vh;
+    height: 100vh;
     width: 100%;
     background: #E83350; 
+}
+.gal{
+    margin-top: -30px;
+    margin-left: 30px;
 }
 .project-title{
     font-family: 'Baloo Bhai 2', cursive;
@@ -31,61 +122,205 @@ body
     margin-right: 0%;
     opacity: 1;
 }
+
 .fa-github{
     font-size: 3em;
     color: #202020;
 }
-.card-body{
-    height: 20vh;
-}
 .card-title{
-    margin-top: -2vh;
+    margin-top: -2.0vh;
+    font-size: auto;
 }
 .card{
-    margin-left: 10%;
     opacity: 1;
     overflow: hidden;
     width: 16rem;
     transition: 0.3s;
-    border: 3px solid rgb(255, 255, 255);
+    border: 2px solid rgb(88, 86, 86);
     margin-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    opacity: 1;
+    transition: 0.3s;
 }
-.proj-gall{
-    margin-top: -50px;
+.proj-gall-1{
+    margin-top: 0px;
+    position: relative;
+    float: left;
+    margin-left: 10%;
 }
-.card-img-top{
-    background-image: url('../images/Project/p1.png');
-    height: 140px;
+.pr-cad-ani{
+    transition: 0.3s;
+    opacity: 0;
+    margin-left: -8%;
+}
+.proj-gall-2{
+    position: relative;
+    margin-top: -67.9vh;
+    margin-left: 400px;
+}
+
+.proj-gall-3{
+    margin-top: -67.9vh;
+    margin-left: 800px;
+}
+.card-img-top-1{
+    background-image: url('../images/Project/p-1-1.png');
+    height: 160px;
     background-position: center;
     background-size: cover;
     transform-origin: bottom;
     animation-fill-mode: both;
-    animation: iimg 10s infinite;    
+    animation: iimg-1 10s infinite;    
 }
-@keyframes iimg
+@keyframes iimg-1
 {
     0%,100%{
-    background-image: url('../images/Project/p1.png');
+    background-image: url('../images/Project/p-1-1.png');
 
     }
     25%{
-        background-image: url('../images/Project/p2.png');
+        background-image: url('../images/Project/p-1-2.png');
     }
     75%{
-        background-image: url('../images/Project/p3.png');
+        background-image: url('../images/Project/p-1-3.png');
+
+    }
+}
+
+.card-img-top-2{
+    background-image: url('../images/Project/p-2-1.png');
+    height: 160px;
+    background-position: center;
+    background-size: cover;
+    transform-origin: bottom;
+    animation-fill-mode: both;
+    animation: iimg-2 10s infinite;    
+}
+@keyframes iimg-2
+{
+    0%,100%{
+    background-image: url('../images/Project/p-2-1.png');
+
+    }
+    25%{
+        background-image: url('../images/Project/p-2-2.png');
+    }
+    75%{
+        background-image: url('../images/Project/p-2-3.png');
+
+    }
+}
+
+.card-img-top-3{
+    background-image: url('../images/Project/p-3-1.png');
+    height: 160px;
+    background-position: center;
+    background-size: cover;
+    transform-origin: bottom;
+    animation-fill-mode: both;
+    animation: iimg-3 10s infinite;    
+}
+@keyframes iimg-3
+{
+    0%,100%{
+    background-image: url('../images/Project/p-3-1.png');
+
+    }
+    25%{
+        background-image: url('../images/Project/p-3-2.png');
+    }
+    75%{
+        background-image: url('../images/Project/p-3-3.png');
+
+    }
+}
+
+.card-img-top-4{
+    background-image: url('../images/Project/p-4-1.png');
+    height: 160px;
+    background-position: center;
+    background-size: cover;
+    transform-origin: bottom;
+    animation-fill-mode: both;
+    font-size: 1.5em;
+    animation: iimg-4 10s infinite;    
+}
+@keyframes iimg-4
+{
+    0%,100%{
+    background-image: url('../images/Project/p-4-1.png');
+
+    }
+    25%{
+        background-image: url('../images/Project/p-4-2.png');
+    }
+    75%{
+        background-image: url('../images/Project/p-4-3.png');
+
+    }
+}
+.card-img-top-5{
+    background-image: url('../images/Project/p-5-1.png');
+    height: 160px;
+    background-position: center;
+    background-size: cover;
+    transform-origin: bottom;
+    animation-fill-mode: both;
+    animation: iimg-5 10s infinite;    
+}
+@keyframes iimg-5
+{
+    0%,100%{
+    background-image: url('../images/Project/p-5-1.png');
+
+    }
+    25%{
+        background-image: url('../images/Project/p-5-2.png');
+    }
+    75%{
+        background-image: url('../images/Project/p-5-3.png');
+
+    }
+}
+.card-img-top-6{
+    background-image: url('../images/Project/p-6-1.png');
+    height: 160px;
+    background-position: unset;
+    background-size: cover;
+    transform-origin: bottom;
+    animation-fill-mode: both;
+    animation: iimg-6 10s infinite;    
+}
+@keyframes iimg-6
+{
+    0%,100%{
+    background-image: url('../images/Project/p-6-1.png');
+
+    }
+    25%{
+        background-image: url('../images/Project/p-6-2.png');
+    }
+    75%{
+        background-image: url('../images/Project/p-6-3.png');
 
     }
 }
 .card:hover .hov-eff{
-    margin-top: -299px;
+    margin-top: -389px;
     transition: 0.3s;
     opacity: 1;
     cursor: pointer;
 }
 .card-text{
-    text-align: center;
-    margin-top: -0.8em;
-    z-index: -9999;
+    text-align: left;
+    margin-top: 25vh;
+    z-index: 1;
+    padding: 30px;
+    color: white;
+}
+.card-body{
+    height: 5vh;
+    background-color: rgba(180, 163, 163, 0.397);
 }
 .hov-eff{
     z-index: 1;
@@ -104,7 +339,7 @@ body
 .btn{
     background-color: #fff;
     border:none;
-    margin-top: 100px;
+    margin-top: -20px;
     position: relative;
 }
 .btn:hover{
@@ -341,6 +576,7 @@ nav ul li a:hover{
     border-bottom: 2px solid wheat;
     transition: 0.5s;
     padding: 5px 20px;
+    cursor: pointer;
 }
 .scrolled{
     background-color: rgb(0, 0, 0,0.3);
@@ -635,11 +871,30 @@ nav .Nav-Bar {
     .btn{
         background-color: #fff;
         border:none;
-        margin-top: 100px;
+        margin-top: -10px;
         position: relative;
     }
     .fa-github{
         font-size: 3em;
     }
-    
+    .proj-gall-1{
+    margin-top: 0px;
+    position: relative;
+    margin-left: 15%;
+    }
+    #Project{
+        height: 295vh;
+    }
+    .gal{
+        margin-top: -30px;
+        margin-left: 0px;
+    }
+    .pos-ico-2{
+        margin-top: 19vh;
+        margin-top: 50px;
+    }
+    .pos-ico-3{
+        margin-top: -6.7vh;
+        margin-left: 20%;
+    }    
 }
