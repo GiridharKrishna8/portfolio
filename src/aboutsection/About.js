@@ -10,7 +10,7 @@ export default class About extends Component {
         }
     componentDidMount() {
         window.addEventListener('scroll',() => {
-            const isTop = window.scrollY < 580;
+            const isTop = window.scrollY < 560;
             if(isTop !== true){
                 this.setState({scrolledf : true});
             } 

@@ -24,7 +24,7 @@ export default class Skills extends Component {
         }
     componentDidMount() {
         window.addEventListener('scroll',() => {
-            const isTop = window.scrollY < 1290;
+            const isTop = window.scrollY < 1220;
             if(isTop !== true){
                 this.setState({scrolledv : true});
             } 
