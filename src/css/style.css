@@ -522,7 +522,7 @@ nav .Nav-Bar {
     }
     .About-data{
         width: 100%;
-        height: 55vh;
+        height: 61vh;
         position: relative;
     }
     .about-head{
@@ -536,6 +536,7 @@ nav .Nav-Bar {
         transition-delay: 0.2s;
         margin-left: 100%;
         margin-left: 15%;
+        margin-top: -10%;
     }
     .ani{
         opacity: 1;
@@ -548,8 +549,8 @@ nav .Nav-Bar {
         width: 90%;
         height: 60%;
         margin-left: -15%;
-        line-height: 20px;
-        margin-top: -10%;
+        line-height: 18px;
+        margin-top: -16%;
         opacity: 0;
         font-size: 15px;
         margin-right: -100%;
